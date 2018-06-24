@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-python-machinelearning
+FROM frolvlad/alpine-python-machinelearning:onbuild
 ENV PORT 8080
 EXPOSE 8080
 ENTRYPOINT ["python"]
